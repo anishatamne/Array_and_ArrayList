@@ -65,6 +65,6 @@ public static int[] arrayListToArray(ArrayList<Integer> list) {
     for (int i = 0; i < list.size(); i++) {
         array[i] = list.get(i);
     }
-    return array;
-    }
+    return array;
+    }
 }

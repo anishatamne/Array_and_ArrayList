@@ -49,3 +49,12 @@ public static int findMinDistanceNeighborIndex(int[] arr) {
     }
     return minIndex;
 }
+
+
+public static ArrayList<Integer> arrayToArrayList(int[] array) {
+    ArrayList<Integer> list = new ArrayList<>();
+    for (int num : array) {
+        list.add(num);
+    }
+    return list;
+}
